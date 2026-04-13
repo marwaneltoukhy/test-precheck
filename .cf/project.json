@@ -1,0 +1,68 @@
+{
+  "precheck": {
+    "version": "1.1.1",
+    "timestamp": "2026-04-13T11:00:13.412195+00:00",
+    "pdk": "sky130A",
+    "passed": true,
+    "checks": {
+      "topcell_check": {
+        "status": "pass",
+        "duration_s": 1.88
+      },
+      "gpio_defines": {
+        "status": "pass",
+        "duration_s": 1.2
+      },
+      "xor": {
+        "status": "pass",
+        "duration_s": 17.81
+      },
+      "klayout_feol": {
+        "status": "pass",
+        "duration_s": 290.77
+      },
+      "klayout_beol": {
+        "status": "pass",
+        "duration_s": 737.98
+      },
+      "klayout_offgrid": {
+        "status": "pass",
+        "duration_s": 182.64
+      },
+      "klayout_met_min_ca_density": {
+        "status": "pass",
+        "duration_s": 52.13
+      },
+      "klayout_pin_label_purposes_overlapping_drawing": {
+        "status": "pass",
+        "duration_s": 32.61
+      },
+      "klayout_zeroarea": {
+        "status": "pass",
+        "duration_s": 9.18
+      },
+      "spike_check": {
+        "status": "pass",
+        "duration_s": 6.31
+      },
+      "illegal_cellname_check": {
+        "status": "pass",
+        "duration_s": 1.89
+      },
+      "lvs": {
+        "status": "pass",
+        "duration_s": 965.7
+      },
+      "oeb": {
+        "status": "pass",
+        "duration_s": 7.82
+      },
+      "magic_drc": {
+        "status": "skip",
+        "duration_s": 0,
+        "reason": "optional (use --magic-drc to include)"
+      }
+    },
+    "input_file_hash": "7dedb0577fede3bf2014261de4d5e78fb372daa1"
+  }
+}
